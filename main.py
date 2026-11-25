@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Write the one-line resignation letter of a cron job to /output/entry.txt."""
+"""Write the one-line resignation letter of a cron job to /output/entry.txt.
+
+The letter is written by a cron job that fired every minute for nine months
+and was only ever noticed by the on-call engineer it kept waking up.
+"""
 
 import os
 
